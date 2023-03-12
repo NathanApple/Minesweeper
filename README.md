@@ -1,18 +1,22 @@
-## Getting Started
+## Minesweeper
+### GSLC Assignment 1
+2540120521 - Nathaniel Candra   
 
-Welcome to the VS Code Java world. Here is a guideline to help you get started to write Java code in Visual Studio Code.
+For this assignment, i have created a minesweeper game. In minesweeper, the task is for the player to reveal every square without trigger any of the mine. If a player happen to reveal a mine, the game will end.
 
-## Folder Structure
+To start the game simply run the java program and this prompt will appear
+![image](https://github.com/NathanApple/Minesweeper/blob/main/image/1.png)
 
-The workspace contains two folders by default, where:
+To reveal a square, simply input the x (horizontal axis) and y (vertical axis) coordinate
+![image](https://github.com/NathanApple/Minesweeper/blob/main/image/2.png)
 
-- `src`: the folder to maintain sources
-- `lib`: the folder to maintain dependencies
+When a mine is revealed, the game will end and all remaining mine will also be revealed
+![image](https://github.com/NathanApple/Minesweeper/blob/main/image/3.png)
 
-Meanwhile, the compiled output files will be generated in the `bin` folder by default.
+When all squares  without mine is revealed, the game will end and the rest of the square will be revealed
+![image](https://github.com/NathanApple/Minesweeper/blob/main/image/4.png)
 
-> If you want to customize the folder structure, open `.vscode/settings.json` and update the related settings there.
+Bonus, size of the board and number of mine could be customized
+![image](https://github.com/NathanApple/Minesweeper/blob/main/image/5.png)
 
-## Dependency Management
 
-The `JAVA PROJECTS` view allows you to manage your dependencies. More details can be found [here](https://github.com/microsoft/vscode-java-dependency#manage-dependencies).
