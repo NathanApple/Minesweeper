@@ -69,7 +69,7 @@ public class App {
         // -2: Unexplored
         // -1: Bomb
         int size = 5;
-        int numOfBomb = 4;
+        int numOfBomb = 3;
         int maxPoint = (size*size) - numOfBomb;
         int point = 0;
         int[][] map = new int[size][size];
