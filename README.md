@@ -2,7 +2,7 @@
 ### GSLC Assignment 1
 2540120521 - Nathaniel Candra   
 
-For this assignment, i have created a minesweeper game. In minesweeper, the task is for the player to reveal every square without trigger any of the mine. If a player happen to reveal a mine, the game will end.
+For this assignment, i have created a minesweeper game. In minesweeper, the task is for the player to reveal every square without trigger any of the mine. If a player happen to reveal a mine, the game will end. This program is using 2 dimensional array to create a map for the game take place. At first the map is empty then the hidden mine will be added. When the player choose a tile to be revealed then the game will calculate the total mine around the tile based on 3x3 tile around the mine. 
 
 To start the game simply run the java program and this prompt will appear
 ![image](https://github.com/NathanApple/Minesweeper/blob/main/image/1.png)
